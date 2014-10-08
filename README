@@ -1,0 +1,31 @@
+*************************************************
+*                                               *
+*	    WHMCS API Tester v2.0		*
+*	   Created by Chance Benson		*
+*	Intelectual Propert of WHMCS, LTD	*
+*						*
+*************************************************
+
+-- Version 2.0-release1 --
+
+Current state has around 7 API calls that are functioning for testing against client servers.
+
+You do not need to Whitelist the IP for this to work as long as you have the API Access key that is to be added in your configuration.php file.
+
+For assistance on how to do this, please see the docs pages:
+
+http://docs.whmcs.com/API:Access_Keys
+
+Simply insert your WHMCS user, followed by the Password for that user, the API Key from the config file and the URL to your /includes/api.php file (eg. http|s://domain.com/pathtowhmcsroot/includes/api.php
+
+From the drop down select your call you wish to test.
+
+**Depending on the call you choose, additionfields will load on the page in which you will place the information to make the call**
+
+Select you response type (eg. JSON or XML) and then submit your query.
+
+The results will be displayed at the bottom of the page in the debug output box.
+
+Any questions, you can email me chance@whmcs.com 
+
+
