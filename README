@@ -8,7 +8,7 @@
 *						*
 *************************************************
 
--- Version 2.0-release1 --
+-- Version 2.0.1-release1 --
 
 Current state has around 7 API calls that are functioning for testing against client servers.
 
