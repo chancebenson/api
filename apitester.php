@@ -348,7 +348,7 @@ if($url) {
     }
     elseif ($api == "getinvoices") {
         $postfields["action"] = "getinvoices";
-        $postfields["clientid"] = "$clientid";
+        $postfields["userid"] = "$clientid";
     }
     $query_string = "";
     foreach ($postfields as $k=>$v) $query_string .= "$k=".urlencode($v)."&";
